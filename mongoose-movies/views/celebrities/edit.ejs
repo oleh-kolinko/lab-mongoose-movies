@@ -1,0 +1,8 @@
+<h2>Edit:</h2>
+<a href='/celebrities'><button>Back</button></a>
+<form class="" action="/celebrities/<%= celebrity._id %>" method="post">
+  <p>Name: <input name='name' value='<%= celebrity.name %>'>  </input> </p>
+  <p>Occupation: <input name='occupation' value='<%= celebrity.occupation %>'>  </input> </p>
+  <p>Cathing phrase: <input name='catchPhrase' value='<%= celebrity.catchPhrase %>'>  </input> </p>
+  <button>UPDATE</button>
+</form>

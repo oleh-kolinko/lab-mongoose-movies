@@ -1,0 +1,9 @@
+<h2>Details:</h2>
+<a href='/celebrities'><button>Back</button></a>
+<p>Name: <%= celebrity.name %></p>
+<p>Occupation: <%= celebrity.occupation %></p>
+<p>Cathing phrase: <%= celebrity.catchPhrase %></p>
+<a href='/celebrities/<%= celebrity._id %>/edit'><button>EDIT</button></a>
+<form class="" action="/celebrities/<%= celebrity._id %>/delete" method="post">
+  <button>DELETE</button>
+</form>

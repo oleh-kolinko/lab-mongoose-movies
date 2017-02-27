@@ -1,0 +1,9 @@
+<h2>Details:</h2>
+<a href="/movies"><button>Back</button></a>
+<p>Name: <%= movie.name %></p>
+<p>Genre: <%= movie.genre %></p>
+<p>Plot: <%= movie.plot %></p>
+<a href="/movies/<%= movie._id %>/edit"><button>EDIT</button></a>
+<form class="" action="/movies/<%= movie._id %>/delete" method="post">
+  <button>DELETE</button>
+</form>

@@ -1,0 +1,8 @@
+<h2>Edit:</h2>
+<a href='/movies'><button>Back</button></a>
+<form class="" action="/movies/<%= movie._id %>" method="post">
+  <p>Name: <input name='name' value='<%= movie.name %>'>  </input> </p>
+  <p>Genre: <input name='genre' value='<%= movie.genre %>'>  </input> </p>
+  <p>Plot: <textarea name='plot' > <%= movie.plot %> </textarea> </p>
+  <button>UPDATE</button>
+</form>
